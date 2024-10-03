@@ -10,7 +10,7 @@ const op4 = document.querySelector('#opcion4')
 
 const btn = document.querySelector('#enviar')
 
-var url = 'http://127.0.0.1:5000'
+var url = 'https://actividad-1-backend.onrender.com'
 op1.addEventListener('click', opcion1)
 op2.addEventListener('click', opcion2)
 op3.addEventListener('click', opcion3)
@@ -19,7 +19,7 @@ op4.addEventListener('click', opcion4)
 btn.addEventListener('click', enviar)
 
 function opcion1(){
-    url = 'http://127.0.0.1:5000'
+    url = 'https://actividad-1-backend.onrender.com'
     t1.disabled = true
     t2.disabled = true
     t3.disabled = true
@@ -34,7 +34,7 @@ function opcion1(){
 }
 
 function opcion2(){
-    url = 'http://127.0.0.1:5000'
+    url = 'https://actividad-1-backend.onrender.com'
     t1.disabled = false
     t2.disabled = false
     t3.disabled = false
@@ -49,7 +49,7 @@ function opcion2(){
 }
 
 function opcion3(){
-    url = 'http://127.0.0.1:5000'
+    url = 'https://actividad-1-backend.onrender.com'
 
     t1.disabled = false
     t2.disabled = true
@@ -65,7 +65,7 @@ function opcion3(){
 }
 
 function opcion4(){
-    url = 'http://127.0.0.1:5000'
+    url = 'https://actividad-1-backend.onrender.com'
     t1.disabled = false
     t2.disabled = false
     t3.disabled = false
@@ -80,7 +80,7 @@ function opcion4(){
 }   
 
 function enviar(){
-    url = 'http://127.0.0.1:5000'
+    url = 'https://actividad-1-backend.onrender.com'
     if(op2.checked){
         url = url + `/notas/${parseFloat(t1.value).toFixed(1)}/${parseFloat(t2.value).toFixed(1)}/${parseFloat(t3.value).toFixed(1)}`
         console.log(url)
