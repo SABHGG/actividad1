@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initialscale=1.0">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+ <script src="index.js" defer></script>
+ <title>Api básica</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header role="group">
+            <h2>SABHGG</h2>
+            <nav>
+                <a href="/index.html">Inicio</a><a href="/frontend/propuestos.html">propuestos</a>
+            </nav>
+        </header>
+        <article>
+            <fieldset>
+                <legend>Seleccione una opción:</legend>
+                    <input type="radio" id="opcion1" name="opcion" value=1 checked />
+                    <label for="opcion1">Mensaje</label>
+                    <input type="radio" id="opcion2" name="opcion" value=2 />
+                    <label for="opcion2">Notas</label>
+                    <input type="radio" id="opcion3" name="opcion" value=3 />
+                    <label for="opcion3">Edad</label>
+                    <input type="radio" id="opcion4" name="opcion" value=4 />
+                    <label for="opcion4">Arreglos</label>
+            </fieldset>
+            <div>
+                <input type="number" id="t1" name="t1" min="0" disabled/>
+                <input type="number" id="t2" name="t2" min="0" disabled/>
+                <input type="number" id="t3" name="t3" min="0" disabled/>
+            <div>
+            <div>
+                <button id="enviar">Enviar</button>
+            </div>
+        </article>
+        <br/>
+        <div id="contenido"></div>
+    </div>
+</body>
+</html>
