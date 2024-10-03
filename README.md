@@ -27,3 +27,8 @@ Este proyecto es una aplicación web sencilla desarrollada con **Flask**, que si
   - **Círculo (`/calcular/circulo/<radio>/`)**: Calcula el área de un círculo basado en el radio proporcionado.
   - **Cuadrado (`/calcular/cuadrado/<lado>/`)**: Calcula el área de un cuadrado basado en el lado proporcionado.
   - **Triángulo (`/calcular/triangulo/<base>/<altura>/`)**: Calcula el área de un triángulo basado en la base y la altura proporcionadas.
+
+## Enlaces
+
+- **Frontend**: [Actividad 1 Frontend](https://actividad1.pages.dev/)
+- **Backend**: [Actividad 1 Backend](https://actividad-1-backend.onrender.com)
